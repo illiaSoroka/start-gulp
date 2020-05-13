@@ -1,7 +1,7 @@
 $(function () {
 
   // Custom JS
-  alert("hello!");
+  alert("hello World!");
 
 });
 

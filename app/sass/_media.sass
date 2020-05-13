@@ -1,31 +1,37 @@
-@import "vars"
-
 
 /*==========  Desktop First  ==========*/
 
 // ≥1200px
-+media-breakpoint-down(lg)
+@media only screen and (max-width: 1200px)
+	/**/
 
 // ≥992px
-+media-breakpoint-down(md)
+@media only screen and (max-width: 992px)
+	/**/
 
 // ≥768px
-+media-breakpoint-down(sm)
+@media only screen and (max-width: 768px)
+	/**/
 
 // ≥576px
-+media-breakpoint-down(xs)
+@media only screen and (max-width: 576px)
+	.content
+		background-color: #000
 
-
-/*==========  Mobile First  ==========*/
+	/*==========  Mobile First  ==========*/
 
 // ≤576px
-+media-breakpoint-up(sm)
+@media only screen and (min-width : 576px)
+	/**/
 
 // ≤768px
-+media-breakpoint-up(md)
+@media only screen and (min-width : 768px)
+	/**/
 
 // ≤992px
-+media-breakpoint-up(lg)
+@media only screen and (min-width : 992px)
+	/**/
 
 // ≤1200px
-+media-breakpoint-up(xl)
+@media only screen and (min-width : 1200px)
+	/**/
